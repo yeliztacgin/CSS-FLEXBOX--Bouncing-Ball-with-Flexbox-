@@ -1,0 +1,28 @@
+﻿div {
+    width: 1300px;
+    height: 600px;
+   align-items:center
+   
+  
+    
+}
+
+.box
+{
+ height:300px;
+ display:flex;
+ align-items:flex-end;
+ justify-content:center;
+ margin-top:250px;
+
+
+}
+@keyframes jump{
+    to{transform: translateY(-200px);}
+}
+
+.ball{
+
+
+    animation:jump 1s infinite alternate;
+}
